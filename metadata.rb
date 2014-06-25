@@ -1,3 +1,4 @@
+name            "coldfusion902"
 maintainer       "The Wharton School - The University of Pennsylvania"
 maintainer_email "goettnel@wharton.upenn.edu"
 license          "Apache 2.0"
