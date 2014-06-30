@@ -71,6 +71,7 @@ elsif node['cf902']['installer'] && node['cf902']['installer']['cookbook_file']
 elsif node['cf902']['installer'] && node['cf902']['installer']['local_file']
 
   file_name = node['cf902']['installer']['local_file'].split('/').last
+  puts "just set file_name"
 
   # Move the CF 10 installer
   execute "copy_cf902_installer" do
