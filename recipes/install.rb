@@ -92,6 +92,10 @@ else
 
 end
 
+puts "********************************"
+puts file_name
+puts "********************************"
+
 # Run the CF 9.0.2 installer
 execute "run_cf902_installer" do
   command "#{Chef::Config['file_cache_path']}/#{file_name} -f #{Chef::Config['file_cache_path']}/cf902-installer.properties"
